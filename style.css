@@ -5,7 +5,7 @@
 }
 
 .full-width {
-  width: 100%;
+  max-width: 1440;
 }
 
 #cabecalho h1 {
@@ -13,8 +13,7 @@
 }
 
 #cabecalho {
-  position: fixed;
-  width: 100%;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: rgb(65, 22, 22);
@@ -180,4 +179,10 @@ footer small {
   display: block;
 }
 
+/* Media Query */
 
+@media(max-width: 800px){
+  #sobre img {
+    margin-left: 0px;
+  }
+}
