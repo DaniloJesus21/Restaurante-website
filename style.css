@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#cabecalho h1 {
+  color: white;
+}
+
+#cabecalho {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgb(65, 22, 22);
+  padding: 8px 0;
+  z-index: 2;
+}
+
+#cabecalho li {
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+#cabecalho .nav-item .nav-link.active {
+  color: brown;
+  background-color: white;
+}
+
+#cabecalho .nav-item .nav-link {
+  text-align: center;
+  color: white;
+}
+
+#cabecalho .nav-item .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler{
+  background-color: white;
+}
+
+section {
+  padding-top: 80px;
+  z-index: 1;
+}
+
+#inicio{
+  padding-top: 0;
+  height: 76vh;
+}
+
+#inicio img{
+  height: 76vh;
+}
+
+#sobre img {
+  height: 600px;
+  margin-left: 48px;
+}
+
+#sobre p{
+  text-align: justify;
+}
+
+#cardapio{
+  margin-bottom: 10vh;
+}
+
+#cardapio h2 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#cardapio nav {
+  margin-bottom: 1em;
+}
+
+#cardapio nav .nav-link{
+  font-size: 16px;
+}
+
+#cardapio .tab-content img {
+  height: 400px;
+}
+
+#cardapio .tab-content article:hover{
+  .card-img-overlay{
+    display: block;
+  }
+}
+
+#cardapio .tab-content article header {
+  text-align: center;
+  background-color: white;
+  font-size: 1.5em;
+}
+
+#cardapio .tab-content article .card-body{
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.card-img-overlay{
+  display: none;
+  background-color: rgba(0,0,0,0.6);
+  margin-top: 52px;
+  height: 400px;
+  color: white;
+  text-align: justify;
+  transition: 0.3s ease;
+}
+
+.tab-pane {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.tab-pane.show {
+  display: block;
+  opacity: 1;
+}
+
+#reservas{
+  height: 100vh;
+}
+
+#reservas .container{
+  height: 100%;
+  padding: 10px;
+} 
+
+#reservas h2 {
+  background-color: white;
+  color: brown;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.reserva select,
+.reserva input{
+  margin-right: 16px;
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+#contato {
+  background-color: rgb(65, 22, 22);
+  color: white;
+  width: 100%;
+}
+
+footer {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+}
+
+.footer-container p {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(65, 22, 22);
+}
+
+footer small {
+  font-size: 80%;
+  display: block;
+}
+
+
