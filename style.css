@@ -182,4 +182,11 @@ footer small {
     margin-left: 0px;
     width: 100%;
   }
+  #inicio{
+    height: 60vh;
+  }
+
+  #inicio img{
+    height: 60vh;
+  }
 }
