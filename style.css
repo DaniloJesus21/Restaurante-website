@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.full-width {
-  max-width: 1440px;
-}
-
 #cabecalho h1 {
   color: white;
 }
